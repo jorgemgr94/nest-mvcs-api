@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: typescript-base-skeleton
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4000:3000"
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
