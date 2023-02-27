@@ -1,10 +1,10 @@
 # Tech Stack
-- NestJS
-- Typescript 
-- MongoDB (Mongoose)
-- Eslint
-- Prettier
-- Docker
+- [X] NestJS
+- [X] Typescript 
+- [X] MongoDB (Mongoose)
+- [X] Eslint
+- [X] Prettier
+- [X] Docker
 
 # Pending
 - [ ] Body schema validation with Joi
