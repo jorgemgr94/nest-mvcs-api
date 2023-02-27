@@ -13,7 +13,7 @@ async function bootstrap() {
 	if (!PORT) throw Error(`PORT not specified`);
 
 	await app.listen(PORT);
-	logger.log(`App started in PORT - ${PORT}`);
+	logger.debug(`App started in PORT - ${PORT}`);
 }
 
 void bootstrap();
