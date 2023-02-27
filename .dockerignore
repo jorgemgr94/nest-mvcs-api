@@ -1,8 +1,1 @@
-# Ignore all files and folders that should not be included in the Docker image
-*
-!src
-!dist
-!node_modules
-!package.json
-!package-lock.json
-!tsconfig.json
+node_modules

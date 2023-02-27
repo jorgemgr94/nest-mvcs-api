@@ -1,13 +1,18 @@
-version: '3.8'
-
+version: "3.8"
 services:
   app:
-    container_name: typescript-base-skeleton
+    container_name: nest-mvcs-rest-crud
     build:
-      context: ./
-      dockerfile: Dockerfile.dev
-    ports:
-      - "4000:3000"
+      dockerfile: Dockerfile
+      context: .
+      target: development
+    command: npm run start:dev
     volumes:
-      - ./:/usr/src/app
-      - /usr/src/app/node_modules
+      - ./:/app
+      - /app/node_modules
+    environment:
+      NODE_ENV: development
+      PORT: 5445
+      MONGODB_URI: mongodb+srv://admin:admin@development.9u7aknr.mongodb.net/petsdb?retryWrites=true&w=majority
+    ports:
+      - 4000:5445
