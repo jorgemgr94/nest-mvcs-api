@@ -1,12 +1,12 @@
-# Tech Stack
-- NestJS
-- Typescript 
-- MongoDB (Mongoose)
-- Eslint
-- Prettier
-- Docker
+## Tech Stack
+- [X] NestJS
+- [X] Typescript 
+- [X] MongoDB (Mongoose)
+- [X] Eslint
+- [X] Prettier
+- [X] Docker
 
-# Pending
+## Pending
 - [ ] Body schema validation with Joi
 - [ ] Testing
 - [ ] Protected routes
@@ -14,3 +14,9 @@
 - [ ] Implement a cursor based pagination
 - [ ] CI / CD
 - [ ] Redis (Cache Layer)
+
+## How to run 
+```
+docker compose build
+docker compose up
+```
