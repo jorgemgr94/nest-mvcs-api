@@ -12,7 +12,7 @@ import { CreatePetDto } from './dto/create-pet.dto';
 import { UpdatePetDto } from './dto/update-pet.dto';
 import { Pet } from './schemas/pet.schema';
 
-@Controller('pets')
+@Controller('api/v1/pets')
 export class PetsController {
 	constructor(private readonly petsService: PetsService) {}
 
