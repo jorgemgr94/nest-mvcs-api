@@ -13,3 +13,4 @@
 - [ ] Role-based authentication
 - [ ] Implement a cursor based pagination
 - [ ] CI / CD
+- [ ] Redis (Cache Layer)
